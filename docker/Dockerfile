@@ -67,8 +67,10 @@ RUN sudo apt-get clean
 # RUN apt-get update && apt-get upgrade --assume-yes
 
 ENV PIPENV_VENV_IN_PROJECT=1
+ENV PATH=${PATH}:/home/user/.local/bin
 RUN echo "export PATH=${PATH}:/home/user/.local/bin" >> /home/${username}/.bashrc
-RUN PATH=${PATH}:/home/user/.local/bin pip3 install -U pip pipenv
+RUN pip3 install -U pip pipenv
+ENV ARGOS_TRANSLATE_PACKAGES_DIR=/opt/models
 
 WORKDIR /opt
 

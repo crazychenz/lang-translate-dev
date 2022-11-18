@@ -9,6 +9,8 @@ CMD_PREFIX="docker run \
     -v $(pwd):/opt \
     crazychenz/xltr:ubuntu-20.04"
 
+# -v $(pwd)/models:/home/user/.local/share/argos-translate/packages
+
 if [ $# -gt 0 ]; then
   $CMD_PREFIX bash -li -c "${*}"
 else

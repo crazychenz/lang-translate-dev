@@ -4,8 +4,10 @@
 # MD5: 1195614fb51a06287f647adbbbe914cc
 curl -o torch-1.13.0-cp38-cp38-manylinux1_x86_64.whl https://files.pythonhosted.org/packages/06/3d/19b2090f3f01751e816d409edcc808c82c2973348713186ac153e735d49f/torch-1.13.0-cp38-cp38-manylinux1_x86_64.whl
 # CUDA Basic Linear Algebra Subroutine Library
-# MD5: 6562106ad83d00820d8b8e364492ea93
-curl -o nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl https://files.pythonhosted.org/packages/46/be/c222e33e60d28ecd496a46fc4d78ccae0ee28e1fd7dc705b6288b4cad27e/nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl
+# MD5: 24fd78e1e635cb63aef8fdde331de49b
+curl -o nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl https://files.pythonhosted.org/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl
+# ~~MD5: 6562106ad83d00820d8b8e364492ea93~~
+# ~~curl -o nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl https://files.pythonhosted.org/packages/46/be/c222e33e60d28ecd496a46fc4d78ccae0ee28e1fd7dc705b6288b4cad27e/nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl~~
 # CUDA Deep Neural Network
 # MD5: ad1163253db48105f67f95749992ba41
 curl -o nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl https://files.pythonhosted.org/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl

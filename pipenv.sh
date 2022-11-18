@@ -9,7 +9,7 @@ docker run \
     -v ${CONTAINER_ID_FPATH}/containerid:/containerid \
     -v $(pwd):/opt \
     crazychenz/xltr:ubuntu-20.04 \
-    pipenv $@
+    bash -li -c "pipenv $@"
 
 rm -r ${CONTAINER_ID_FPATH}
 
